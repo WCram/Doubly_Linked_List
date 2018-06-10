@@ -2,6 +2,7 @@ public class main {
 
     public static void main(String[] args) {
 
+        // Initialize new double Linked list
         DLinkedList dl = new DLinkedList();
 
 dl.add(1);
