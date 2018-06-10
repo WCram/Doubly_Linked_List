@@ -1,7 +1,11 @@
+// Original linked list created for advanced programming
+
 public class LinkedList {
 
+    // Fields
     private Node _head;
 
+    // Methods
     public void add(int data) {
 
         Node newNode = new Node(data);
@@ -72,6 +76,7 @@ public class LinkedList {
         return false;
     } // End remove()
 
+
     public void display() {
         Node current = _head;
 
@@ -90,7 +95,7 @@ public class LinkedList {
 
     }
 
-
+    // Internal class
     private class Node {
 
         int data;
@@ -116,4 +121,5 @@ public class LinkedList {
             this._next = _next;
         }
     } // End class Node
+    
 } // End class Linked List
